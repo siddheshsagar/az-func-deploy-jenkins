@@ -1,1 +1,0 @@
-# az-func-deploy-jenkins
