@@ -4,7 +4,7 @@ import azure.functions as func
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    logging.info('I have changed this statement!')
+    logging.info('Changed on 12/04!')
 
     name = req.params.get('name')
     if not name:
